@@ -1,0 +1,6 @@
+sh run
+sh cdp nei deta | inc Total cdp|CDP is not enabled|Device ID
+sh ver
+clock timezone GMT 0
+sh ntp status | inc Clock is
+sh inv
